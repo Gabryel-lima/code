@@ -30,6 +30,14 @@ ollama pull qwen2.5-coder:32b
 export ANTHROPIC_AUTH_TOKEN=ollama
 export ANTHROPIC_BASE_URL=http://localhost:11434/v1
 
+echo "--------------------------------------------------------------------------------"
+echo "OBSERVAÇÃO IMPORTANTE:"
+echo "Se você ficar preso na tela de seleção inicial do Claude Code, selecione a"
+echo "opção 2 (ou a que menciona 'Pay-as-you-go' / custo por uso da API)."
+echo "Isso liberará o acesso com sua conta. Como o modelo já foi especificado"
+echo "via flag --model, ele aparecerá como selecionado corretamente."
+echo "--------------------------------------------------------------------------------"
+
 echo "Iniciando Claude Code com o modelo qwen2.5-coder:32b..."
 claude --model qwen2.5-coder:32b
 echo "Configuração concluída. Claude Code está pronto para uso com o modelo qwen2.5-coder:32b via Ollama."

@@ -27,6 +27,9 @@ O script irá:
 - Configurar as variáveis de ambiente `ANTHROPIC_AUTH_TOKEN` e `ANTHROPIC_BASE_URL`.
 - Iniciar o Claude Code apontando para o seu Ollama local.
 
+> [!IMPORTANT]
+> **Configuração Inicial:** Se você ficar preso na tela de seleção inicial do Claude Code (com 3 opções), selecione a **opção 2** (ou a que menciona 'Pay-as-you-go' / custo por uso da API). Isso liberará o acesso com sua conta. Como o modelo é definido automaticamente pelo script, ele será exibido como selecionado corretamente.
+
 ## Configurações de API
 
 Para que o Claude Code funcione com o Ollama, o script define:
