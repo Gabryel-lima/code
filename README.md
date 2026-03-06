@@ -5,6 +5,7 @@ Este projeto fornece um script de configuração automatizada para executar o [C
 ## Requisitos Prévios
 
 - **Sistema Operacional:** Linux (ou WSL2 no Windows).
+- **Claude Code (Versão Antiga):** É necessário fazer **downgrade** do Claude Code para versões anteriores (como 0.2.x), pois as versões recentes (2.1.x) bloqueiam o uso de endpoints locais e exigem login oficial com saldo na conta. Estou procurando a melhor forma automatizada de realizar esse downgrade.
 - **curl:** Necessário para a instalação do Claude Code.
 - **curl:** Para a instalação automatizada do Ollama.
 
